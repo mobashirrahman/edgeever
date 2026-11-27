@@ -1,26 +1,26 @@
 {
-  "version": "2.31.1",
+  "version": "2.33.0",
   "changes": {
     "en-US": [
-      "Show a single Google Play update prompt on Android.",
-      "Identify oversized note bodies when an import exceeds the storage limit. Thanks to @sivdead in #871.",
-      "Keep the gallery toolbar open when clicking images in the editor.",
-      "Give the notebook list more space with a compact sidebar and a template shortcut in the new note menu.",
-      "Preserve local diagram and infographic edits when an earlier save finishes syncing."
+      "On Web and desktop, deleting a notebook also deletes its subnotebooks and moves all their notes to the trash. For self-hosted instances, upgrade the server before upgrading the desktop app.",
+      "Desktop users can create subnotebooks offline. They appear in the sidebar immediately and sync when the connection returns.",
+      "Desktop sync sends large batches of note deletions in smaller groups and can resume after a partial sync.",
+      "Desktop sync feedback opens GitHub reliably when diagnostics are long and lets you copy the full report.",
+      "The EdgeEver website adds an open-source note-taking app comparison and makes guides easier to find in English and Chinese."
     ],
     "zh-CN": [
-      "Android 端只显示一次 Google Play 更新提示。",
-      "导入笔记正文超出存储上限时，明确提示失败原因。感谢 @sivdead 在 #871 中的贡献。",
-      "在编辑器中点击图库图片时，保持图库工具栏打开。",
-      "缩小笔记本侧栏顶部控件，为笔记本列表腾出更多空间，并可从新建笔记菜单使用模板。",
-      "较早的保存完成同步时，保留图表和信息图中尚未保存的本地编辑。"
+      "Web 和桌面端删除笔记本时，会一并删除其子笔记本，并将其中的所有笔记移入回收站。自托管用户请先升级服务端，再升级桌面端。",
+      "桌面端断网时可以新建子笔记本，创建后立即显示在侧栏，恢复联网后自动同步。",
+      "桌面端分批同步大量笔记的删除操作，部分同步成功后仍可续传。",
+      "桌面端的同步反馈在诊断信息过长时仍可打开 GitHub，并可复制完整报告。",
+      "EdgeEver 官网上线开源笔记应用对比指南，并优化中英文指南入口。"
     ],
     "ja": [
-      "Android で Google Play の更新確認を 1 回だけ表示します。",
-      "インポートするノートの本文がストレージの上限を超えた場合に、原因を表示します。",
-      "エディターでギャラリー内の画像をクリックしても、ツールバーを開いたままにします。",
-      "サイドバーをコンパクトにしてノートブック一覧を広げ、新規ノートのメニューからテンプレートを使えるようにしました。",
-      "以前の保存内容の同期が完了したときに、図やインフォグラフィックの編集中の変更を保持します。"
+      "Web 版とデスクトップ版では、ノートブックを削除すると、配下のノートブックも削除され、その中のノートはすべてごみ箱に移動します。セルフホスト環境では、デスクトップアプリより先にサーバーを更新してください。",
+      "デスクトップ版でオフラインでも子ノートブックを作成できます。作成後すぐにサイドバーに表示され、再接続時に同期されます。",
+      "デスクトップ版では、大量のノート削除を小分けにして同期し、一部の同期が済んだ状態から再開できます。",
+      "デスクトップ版の同期フィードバックでは、診断情報が長くても GitHub を開けます。完全なレポートもコピーできます。",
+      "EdgeEver のサイトにオープンソースのノートアプリ比較ガイドを追加し、英語版と中国語版のガイドへの導線を改善しました。"
     ]
   }
 }
